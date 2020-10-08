@@ -10,10 +10,13 @@ const DateDiff = {
 };
 
 
-let dString = "Oct, 2, 2020";
+let dString = "Oct, 4, 2020";
 let d1 = new Date(dString);
 let d2 = new Date();
 
 let num = document.getElementsByTagName("span");
-num[0].innerText= DateDiff.inDays(d1, d2);
+num[0].innerHTML= DateDiff.inDays(d1, d2);
 
+for (let i=0; i<10; console.log(i)){
+    i++;
+}
