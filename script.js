@@ -10,7 +10,7 @@ const DateDiff = {
 };
 
 
-let dString = "Oct, 21, 2020";
+let dString = "Oct, 24, 2020";
 let d1 = new Date(dString);
 let d2 = new Date();
 
